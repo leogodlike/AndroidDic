@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Main!</string>
+    <string name="app_name">academicword learning</string>
+    <string name="words">2.academic word list\n </string>
+    <string name="abs">1.instruction\n  </string>
+    <string name="learn">3.learn\n  </string>
+    <string name="review">4.review\n  </string>
+    <string name="test">5.test\n  </string>
+    <string name="attetion">6.new word list\n  
+        
+        </string>
+    <string name="exit">Exit</string>
+</resources>

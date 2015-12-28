@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  <PreferenceCategory android:title="Reminder">
+  <CheckBoxPreference
+            android:key="notify"
+            android:title="Schedule Alarm"
+            android:summaryOn=" ON "
+            android:summaryOff=" OFF"
+            android:defaultValue="true"
+        />
+  <wordroid.widget.timePreference
+  android:key="time"
+  android:title="Set alarm time" 
+  android:persistent="true"       
+  android:summary=""
+  android:dependency="notify">
+  </wordroid.widget.timePreference>
+  </PreferenceCategory>
+  <PreferenceCategory 
+  android:title="Audio Function"
+  >
+  <CheckBoxPreference
+  android:key="iftts"
+  android:persistent="true"
+  android:defaultValue="true"
+  android:title="Read Automarically"
+  android:summaryOn="ON "
+  android:summaryOff=" OFF "
+  >
+  </CheckBoxPreference>
+  
+   <ListPreference
+   android:key="category"
+   android:title="Choose the language"
+   android:defaultValue="1"
+   android:summary=""></ListPreference>
+</PreferenceCategory>
+</PreferenceScreen>
